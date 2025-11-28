@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Header } from "../../components/layout/header"
-import { ModalCreate } from "../../components/Modals/modalCreate"
+import { ModalCreate } from "../../components/modals/modalCreate"
  
 export const Admin = () => {
  

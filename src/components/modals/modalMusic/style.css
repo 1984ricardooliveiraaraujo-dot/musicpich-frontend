@@ -1,0 +1,24 @@
+/* Tamanho da tela, vai preencher 100% da tela do usuario */
+.container-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.container-card-modal{
+    background-color: #20305b;
+    padding: 50px;
+}
+ 
+
+/* .container-card-modal h2{
+    color: aliceblue;
+    text-align: center;
+}
+.container-card-modal p{
+    color: aliceblue;
+    text-align: center;
+
+} */
+    

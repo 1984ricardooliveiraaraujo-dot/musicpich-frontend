@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import './style.css'
 import axios from 'axios'
 import { ModalMusic } from '../../modals/modalMusic'
-import { ModalCreate} from '../../modals/modalcreate'
+import { ModalCreate } from '../../modals/modalCreate'
 
 export const SectionMusic = () => {
 
@@ -55,7 +55,7 @@ export const SectionMusic = () => {
                         </div>
                     ))}
                 </div>
-                <button className='btn' onClick={()=> abrirCadastro()}>Cadastrar nova música</button>
+                <button className='btn' onClick={() => abrirCadastro()}>Cadastrar nova música</button>
             </section>
             <ModalMusic open={open} close={fecharModal} musica={musicaSelecionada} />
             <ModalCreate open={openCadastro} close={fecharModal} />
